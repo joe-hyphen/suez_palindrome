@@ -9,10 +9,10 @@ module SuezPalindrome
 
   private
 
-    # Returns content for palindrome testing.
-    def processed_content
-      self.to_s.downcase.gsub(/[^a-z\d]/i, "")
-    end
+  # Returns content for palindrome testing.
+  def processed_content
+    self.to_s.downcase.gsub(/[^a-z\d]/i, "")
+  end
 end
 
 
