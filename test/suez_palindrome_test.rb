@@ -25,4 +25,10 @@ class SuezPalindromeTest < Minitest::Test
   def test_integer_non_palindrome
     refute 123456.palindrome?
   end
+
+  def test_whitespace_non_palindrome
+    refute "".palindrome?
+    refute "      ".palindrome?
+    refute "\t\n\t".palindrome?
+  end
 end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    suez_palindrome (0.1.1)
+    suez_palindrome (0.2.1)
 
 GEM
   remote: https://rubygems.org/
